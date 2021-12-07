@@ -63,4 +63,9 @@ class RedisUtil
         Redis::incr(self::$prefix . $key);
     }
 
+    public static function decr($key)
+    {
+        Redis::decr(self::$prefix . $key);
+    }
+
 }
