@@ -1,0 +1,16 @@
+{
+    "name": "cca/ccahelper",
+    "description": "ccahouse util",
+    "authors": [
+        {
+            "name": "fuzz",
+            "email": "zz.fu@ccahouse.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ccahouse\\Ccahelper\\": "src/"
+        }
+    },
+    "require": {}
+}
